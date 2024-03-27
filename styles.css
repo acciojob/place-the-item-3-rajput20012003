@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1;
+  min-width: 200px; /* Adjust as needed */
+  margin: 10px; /* Adjust as needed */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is included in item's width */
+}
