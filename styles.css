@@ -1,16 +1,14 @@
-
-/* Your CSS Code here. */
+/* styles.css */
 .holder {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allows items to wrap to the next row */
+  justify-content: space-between; /* Evenly spaces items in the row */
 }
 
 .item {
-  flex: 1;
-  min-width: 200px; /* Adjust as needed */
-  margin: 10px; /* Adjust as needed */
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  padding: 20px;
-  box-sizing: border-box; /* Ensure padding is included in item's width */
+  width: 30%; /* Adjust width as needed */
+  background-color: lightblue;
+  border: 1px solid #000;
+  margin-bottom: 10px; /* Adds spacing between items */
+  box-sizing: border-box; /* Includes padding and border in width calculation */
 }
